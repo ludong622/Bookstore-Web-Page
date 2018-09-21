@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>COMP5347 Assignment One</title>
+   <link rel="stylesheet" href="index.css" />
+   <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<form method="get" action="">
+<div id="searchBox">
+    <input type="text" id="searchWords" />
+    <input type="button" value="search" id="search" />
+    <select id="catagory">
+        <option>Catagory</option>
+        <option>Action and Adventure</option>
+        <option>Art</option>
+        <option>Documentary</option>
+        <option>Health</option>
+        <option>Science Fiction</option>
+        <option>Science History</option>
+    </select>
+    <input type="button" value="Filter" id="filter" />
+    <span id="editCart">
+        <input type="button" value="Add to cart" id="add" />
+        <input type="button" value="Reset the cart" id="reset" />
+        <img src="images/cart.png" alt="Cart" id="cart" />
+        (<span id="number">0</span>)
+    </span>
+</div>
+<div id="listBox">
+    <table id="table1">
+        <caption>Online Book Store</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Title</th>
+                <th>Authors</th>
+                <th>Year</th>
+                <th>Price</th>
+                <th>Publisher</th>
+                <th>Catagory</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="choose1" /></td>
+                <td><img src="images/01.jpg" alt="01.jpg" /></td>
+                <td><I>The Arts: A Visual Encyclopedia</I></td>
+                <td>DK</td>
+                <td>2017</td>
+                <td>13.99</td>
+                <td>DK Children</td>
+                <td>Art</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose2" /></td>
+                <td><img src="images/11.jpg" alt="11.jpg" /></td>
+                <td><I>The Lost Art of Reading Nature's Signs: Use Outdoor Clues to Find Your Way, Predict the Weather, Locate Water, Track Animals―and Other Forgotten Skills (Natural Navigation)</I></td>
+                <td>Tristan Gooley</td>
+                <td>2015</td>
+                <td>11.52</td>
+                <td>The Experiment</td>
+                <td>Art</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose3" /></td>
+                <td><img src="images/02.jpg" alt="02.jpg" /></td>
+                <td><I>The Scientists: A History of Science Told Through the Lives of Its Greatest Inventors</I></td>
+                <td>John Gribbin</td>
+                <td>2004</td>
+                <td>16.00</td>
+                <td>Random House Trade Paperbacks</td>
+                <td>Science History</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose4" /></td>
+                <td><img src="images/22.jpg" alt="22.jpg" /></td>
+                <td><I>The Invention of Science: A New History of the Scientific Revolution</I></td>
+                <td>David Wootton</td>
+                <td>2016</td>
+                <td>7.75</td>
+                <td>Harper Perennia</td>
+                <td>Science History</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose5" /></td>
+                <td><img src="images/03.jpg" alt="03.jpg" /></td>
+                <td><I>The Hunger Games</I></td>
+                <td>Suzanne Collins</td>
+                <td>2010</td>
+                <td>7.55</td>
+                <td>Scholastic Press</td>
+                <td>Action and Adventure</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose6" /></td>
+                <td><img src="images/33.jpg" alt="33.jpg" /></td>
+                <td><I>Coyote Peterson’s Brave Adventures: Wild Animals in a Wild World</I></td>
+                <td>Coyote Peterson</td>
+                <td>2017</td>
+                <td>13.44</td>
+                <td>Mango</td>
+                <td>Action and Adventure</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose7" /></td>
+                <td><img src="images/04.jpg" alt="04.jpg" /></td>
+                <td><I>Dr. A's Habits of Health: The Path to Permanent Weight Control & Optimal Healthg</I></td>
+                <td>Wayne Scott Anderse</td>
+                <td>2010</td>
+                <td>24.43</td>
+                <td>Habits of Health Press</td>
+                <td>Health</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose8" /></td>
+                <td><img src="images/44.jpg" alt="44.jpg" /></td>
+                <td><I>The New Health Rules: Simple Changes to Achieve Whole-Body Wellness</I></td>
+                <td>Frank Lipman M.D.</td>
+                <td>2016</td>
+                <td>8.98</td>
+                <td>Artisan</td>
+                <td>Health</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose9" /></td>
+                <td><img src="images/05.jpg" alt="05.jpg" /></td>
+                <td><I>2084</I></td>
+                <td>Mason Engel</td>
+                <td>2017</td>
+                <td>12.50</td>
+                <td>CreateSpace Independent Publishing Platform</td>
+                <td>Science Fiction</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="choose0" /></td>
+                <td><img src="images/55.jpg" alt="55.jpg" /></td>
+                <td><I>God's Ground: Compared to the settlement of space, all other forms of human endeavor shrink to insignificance</I></td>
+                <td>John Brophy</td>
+                <td>2017</td>
+                <td>6.99</td>
+                <td>John R Brophy</td>
+                <td>Science Fiction</td>
+            </tr>
+        </tbody>
+    </table>
+</div>   
+</form>
+</body>
+</html>
